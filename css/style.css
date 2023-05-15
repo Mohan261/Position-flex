@@ -16,13 +16,14 @@ font-family: 'Roboto', sans-serif;
 	
 }
 .img__card h3{
-	font-size:18px;
+	font-size:14px;
 	font-weight:400;
 	color:#A2A2A2;
 }
 .main__container{
-	width:1500px;
+	width:100%;
 	background-color:#F7F7F7;
+	background-image:url(../img/bg-img.jpg)
 }
 .container{
 	width:1200px;
@@ -44,7 +45,7 @@ font-family: 'Roboto', sans-serif;
 }
 .img__card{
  width:25%;
- padding:16px;
+ padding:15px 15px 30px;
  display:flex;
  align-items:center;
  flex-direction:column;
@@ -54,39 +55,26 @@ font-family: 'Roboto', sans-serif;
 	max-width:100%;
 }
 .icon{
-	width: 40px;
+	width:40px;
     height: 40px;
     background-color: #FFFFFF;
     border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 4px;
-	position:relative;
-	top:-25px;
+    position: relative;
+    top: -15px;
+    text-align: center;
+    line-height: 45px;
 }
-.icon:hover{
-	width: 40px;
+.icon:hover .fa-share-nodes:hover{
+	width:40px;
     height: 40px;
     border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 4px;
-	position:relative;
-	top:-25px;
-	background-color:red;
-	color:white;
+	color:red;
 }
 .fa-check-double{
 	font-size:20px;
 	color:red;
 }
 .fa-share-nodes{
-	font-size:30px;
-	color:red;
-}
-.fa-share-nodes:hover{
-	font-size:30px;
-	color:white;
+	font-size:18px;
+	color:#000;
 }
